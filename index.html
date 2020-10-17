@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Form Pshenichna</title>
+
+	<style>
+		body {
+			background-color: #828ca7;
+			display: flex;
+			justify-content: center;
+
+		}
+
+		h3 {
+			color: white;
+			font-family: Courier, monospace;
+			text-shadow: -1px 0 #7a7a7a, 0 2px#7a7a7a, 2px 0 #7a7a7a, 0 -1px #7a7a7a;
+		}
+
+		form {
+			color: white;
+			background: #a9aab9;
+			padding: 30px;
+			width: 80%;
+			margin: 30px;
+			text-align: justify;
+			font-family: Courier, monospace;
+			text-shadow: -1px 0 #7a7a7a, 0 2px#7a7a7a, 2px 0 #7a7a7a, 0 -1px #7a7a7a;
+		}
+
+		button {
+			border: 1px solid #ffffff;
+			color: white;
+			background: #828ca7;
+			border-radius: 20px;
+			padding: 8px 16px;
+			box-shadow: 2px 2px 1px #797979;
+			font-family: Courier, monospace;
+			text-shadow: -1px 0 #7a7a7a, 0 2px#7a7a7a, 2px 0 #7a7a7a, 0 -1px #7a7a7a;
+		}
+	</style>
+</head>
+
+<body>
+	<div>
+		<form method="post">
+			<h3>Fulfill form</h3>
+			<label for="First name"><b>Name &#173; &#173; &#173; &#173;</b></label>
+			<input name="username" type="text" required placeholder="Your name">
+			<br>
+
+			<label for="email"><b><br>E-mail &#173; &#173;</b></label>
+			<input name="email" type="email" required placeholder="Your email">
+			<br>
+
+			<label for="psw"><b><br>Password</b></label>
+			<input name="password" type="password" required placeholder="Your password">
+			<br>
+
+			<label for="country"><b><br>Select country</b></label>
+			<select name="country">
+				<option value="">Select country</option>
+				<option value="UK">United Kingdom</option>
+				<option value="UA">Ukraine</option>
+				<option value="RU">Russia</option>
+				<option value="FR">France</option>
+				<option value="PL">Poland</option>
+			</select>
+			<br>
+
+			<label for="language"><b><br>Select Language</b></label>
+			<input name="prog_language" type="radio" id="с_sharp">
+			<label for="с_sharp">C#</label>
+			<input name="prog_language" type="radio" id="pyton">
+			<label for="pyton">Pyton</label>
+			<input name="prog_language" type="radio" id="ruby">
+			<label for="ruby">Ruby</label>
+			<br><br>
+
+			<input type="checkbox" name="agreed" id="agreed-checkbox">
+			<label for="agreed-checkbox">I agree for getting news<br></label>
+			<br>
+
+			<button type="submit">Submit</button>
+
+		</form>
+
+	</div>
+</body>
+
+</html>
